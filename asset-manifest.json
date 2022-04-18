@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/actiontrak-db-visualizer/static/css/main.142ddd8f.css",
+    "main.js": "/actiontrak-db-visualizer/static/js/main.fbefad93.js",
+    "static/media/logo.svg": "/actiontrak-db-visualizer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/actiontrak-db-visualizer/index.html",
+    "main.142ddd8f.css.map": "/actiontrak-db-visualizer/static/css/main.142ddd8f.css.map",
+    "main.fbefad93.js.map": "/actiontrak-db-visualizer/static/js/main.fbefad93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.142ddd8f.css",
+    "static/js/main.fbefad93.js"
+  ]
+}
