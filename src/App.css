@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .App-logo {
@@ -26,6 +28,109 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    /* height: 300px; */
+}
+
+.styled-table thead tr {
+    background-color: #097f9d;
+    color: #ffffff;
+    text-align: center;
+    /* position: sticky; */
+}
+
+/* th {
+  position: sticky;
+} */
+table thead {
+  position: sticky;
+}
+
+table thead {
+  inset-block-start: 0; /* "top" */
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #097f9d;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #097f9d;
+}
+
+.input-add {
+  padding: 30px;
+  content: "HI";
+}
+
+.theTab {
+  /* color: red; */
+  display: "flex";
+  align-items: center;
+}
+
+.theTab > .theTabIcon {
+  /* color: red; */
+  margin-left: 5px;
+}
+
+.theTab > .theTabIcon:hover {
+  color: red;
+}
+
+
+form {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #097f9d;
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+label:hover {
+  background: #097f9d;
+  color: black;
 }
 
 @keyframes App-logo-spin {
